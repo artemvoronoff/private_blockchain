@@ -1,4 +1,3 @@
-### What is the process describe by the employer to be implemented in the application?
 
 1. The application will create a Genesis Block when we run the application.
 2. The user will request the application to send a message to be signed using a Wallet and in this way verify the ownership over the wallet address. The message format will be: `<WALLET_ADRESS>:${new Date().getTime().toString().slice(0,-3)}:starRegistry`;
